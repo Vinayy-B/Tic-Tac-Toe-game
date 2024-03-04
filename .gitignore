@@ -1,0 +1,12 @@
+## Please do not remove lines 3 and 4 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+## Please do not remove line 8 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
