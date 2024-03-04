@@ -6,7 +6,7 @@
 
 ## Links
 
-- Live play - [Enjoy :yum:]()
+- Live play - [Enjoy :yum:](https://tic-tac-toe-game-sigma-nine.vercel.app/)
 
 ## Built with
 
