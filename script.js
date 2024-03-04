@@ -61,6 +61,7 @@ const enableBoxes = () => {
 
 const draw = () => {
 	winner.innerText = "The game is draw!";
+    winner.style.color = "#7469B6";
 	msgWinner.classList.remove("hide");
 	newGamebtn.classList.remove("hide");
 	disabledBoxes();
@@ -68,6 +69,7 @@ const draw = () => {
 
 const showWinner = (Winnersyb) => {
 	winner.innerText = `Congratulations winner is ${Winnersyb}`;
+    winner.style.color = "#7469B6";
 	msgWinner.classList.remove("hide");
 	newGamebtn.classList.remove("hide");
 	disabledBoxes();
