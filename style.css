@@ -11,18 +11,23 @@ h1{
     margin: 0%;
     margin-top: 3rem;
 }
+
 .container{
     min-height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .game{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
+    margin-bottom: 1rem;
 }
+
 .box{
     height: 100px;
     width: 100px;
@@ -31,7 +36,14 @@ h1{
     border-radius: 10px;
     border: none;
     color: #7469B6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+.box:hover{
+    background-color: #D2C7ED;
+}
+
 #reset-btn{
     padding: 1rem;
     background-color: #E1AFD1;
@@ -39,6 +51,12 @@ h1{
     color: #7469B6;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset-btn:hover{
+    background-color: #D2C7ED;
 }
 
 .new-btn{
@@ -48,6 +66,12 @@ h1{
     color: #7469B6;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-btn:hover{
+    background-color: #D2C7ED;
 }
 
 .btn-container{
@@ -55,11 +79,13 @@ h1{
     justify-content: center;
     gap: 1rem;
 }
+
 .msg-winner{
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
+
 .hide{
     display: none;
 }
